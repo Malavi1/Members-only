@@ -2,8 +2,8 @@
 
 ### The motto of this assignment
  * To create basic authentication form (I use Devise gem)
- * If the user sign_in we have to display respective the author name in the posts
- * Otherwise we have only display the posts without author name
+ * If the user sign_in we have to display respective author name in the posts
+ * Otherwise it will only display the posts without author name
  * without sign_in user cann't create post
 
 ### Devise authentication
