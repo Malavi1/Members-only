@@ -1,0 +1,10 @@
+<h1>All the posts here</h1>
+<% @posts.each do |post|%>
+    <div>
+        <% if user_signed_in?%>
+            <h6>This is created by <%= User.find_by(id: post.user_id).email%> </h6>
+        <%end%>
+    </div>
+    <h2><%=post.title%></h2>
+    <p><%=post.content%></p>
+<%end%>
