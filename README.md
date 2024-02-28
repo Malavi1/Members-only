@@ -16,8 +16,8 @@ rails db:migrate
 ### **Post** Controller, Model creation
 
 ```
-rails generate controller Users new create index --->[For this these 3 controller actions are enough]
-rails geenrate model User title:string content:text
+rails generate controller Posts new create index --->[For this these 3 controller actions are enough]
+rails geenrate model Post title:string content:text
 
 ```
 
